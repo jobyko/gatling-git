@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git.request
+package com.github.jobyko.gatling.git.request
 import java.io.File
 import java.nio.file.{Files, Paths}
 import java.time.LocalDateTime
 
-import com.github.barbasa.gatling.git.GatlingGitConfiguration
-import com.github.barbasa.gatling.git.helper.CommitBuilder
+import com.github.jobyko.gatling.git.GatlingGitConfiguration
+import com.github.jobyko.gatling.git.helper.CommitBuilder
 import com.jcraft.jsch.JSch
 import com.jcraft.jsch.{Session => SSHSession}
 import io.gatling.commons.stats.{OK => GatlingOK}

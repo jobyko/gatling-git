@@ -12,10 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git
+package com.github.jobyko.gatling.git
 
-object Predef extends GitDsl {
+import com.github.jobyko.gatling.git.protocol.GitProtocolBuilder
+import io.gatling.core.config.GatlingConfiguration
 
-  type Request = com.github.barbasa.gatling.git.request.Request
-  type Response = com.github.barbasa.gatling.git.request.Response
+trait GitDsl {
+  def git(implicit configuration: GatlingConfiguration) =
+    GitProtocolBuilder(configuration)
 }

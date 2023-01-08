@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git.action
+package com.github.jobyko.gatling.git.action
 
-import com.github.barbasa.gatling.git.request.builder.GitRequestBuilder
-import com.github.barbasa.gatling.git.request.{Fail, OK, Request, Response}
+import com.github.jobyko.gatling.git.request.builder.GitRequestBuilder
+import com.github.jobyko.gatling.git.request.{Fail, OK, Request, Response}
 import io.gatling.commons.util.Clock
 import io.gatling.commons.validation.{Failure, Success}
 import io.gatling.core.CoreComponents

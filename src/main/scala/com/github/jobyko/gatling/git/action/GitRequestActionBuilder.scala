@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git.action
+package com.github.jobyko.gatling.git.action
 
-import com.github.barbasa.gatling.git.request.builder.GitRequestBuilder
+import com.github.jobyko.gatling.git.request.builder.GitRequestBuilder
 import io.gatling.core.action.Action
 import io.gatling.core.action.builder.ActionBuilder
 import io.gatling.core.structure.ScenarioContext

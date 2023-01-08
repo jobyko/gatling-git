@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git.helper
+package com.github.jobyko.gatling.git.helper
 
-import com.github.barbasa.gatling.git.helper.MockFiles._
+import com.github.jobyko.gatling.git.helper.MockFiles._
 import org.eclipse.jgit.api._
 import org.eclipse.jgit.lib.Repository
 import java.time.LocalDateTime

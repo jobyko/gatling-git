@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git
+package com.github.jobyko.gatling.git
 
 import com.google.inject.Singleton
 import com.typesafe.config.ConfigFactory

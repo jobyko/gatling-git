@@ -56,7 +56,7 @@ sbt "gatling:test"
 
 Single test:
 ```
-sbt "gatling:testOnly com.github.barbasa.gatling.git.ReplayRecordsScenario"
+sbt "gatling:testOnly com.github.jobyko.gatling.git.ReplayRecordsScenario"
 ```
 
 Generate report:

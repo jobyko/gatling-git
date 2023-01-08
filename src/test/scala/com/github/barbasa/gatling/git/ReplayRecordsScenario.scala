@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git
+package com.github.jobyko.gatling.git
 
-import com.github.barbasa.gatling.git.protocol.GitProtocol
-import com.github.barbasa.gatling.git.request.builder.GitRequestBuilder
+import com.github.jobyko.gatling.git.protocol.GitProtocol
+import com.github.jobyko.gatling.git.request.builder.GitRequestBuilder
 import io.gatling.core.Predef._
 import io.gatling.core.structure.ScenarioBuilder
 import java.io._

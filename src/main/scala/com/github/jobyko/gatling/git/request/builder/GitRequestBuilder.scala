@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.github.barbasa.gatling.git.request.builder
+package com.github.jobyko.gatling.git.request.builder
 
-import com.github.barbasa.gatling.git.{GatlingGitConfiguration, GitRequestSession}
-import com.github.barbasa.gatling.git.action.GitRequestActionBuilder
-import com.github.barbasa.gatling.git.request._
+import com.github.jobyko.gatling.git.{GatlingGitConfiguration, GitRequestSession}
+import com.github.jobyko.gatling.git.action.GitRequestActionBuilder
+import com.github.jobyko.gatling.git.request._
 import io.gatling.commons.validation.{Failure, Success, Validation}
 import io.gatling.core.session.Session
 import org.eclipse.jgit.transport.URIish
